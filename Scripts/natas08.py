@@ -16,7 +16,8 @@ response = session.get(url+source,auth=(username,password))
 print(response.text)
 print("="*50)
 
-secretHex = re.findall(r"[a-z0-9]{32}",response.text)[0].decode("hex")
+secretHex = re.findall(r"[a-z0-9]{32}",response.text)[0]
+secretHex = secretHex.decode("hex")
 # reverse the hex
 secret = secretHex[::-1].decode("base64")
 response = session.post(url,auth=(username,password),data={"secret":secret,"submit":"submit"})
