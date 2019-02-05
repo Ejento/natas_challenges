@@ -2,7 +2,7 @@ import requests
 import re
 
 username = "natas22"
-password = "chG9fbe1Tq2eWVMgjYYD1MsfIvN461kJ"
+password = "<censored>"
 url = "http://%s.natas.labs.overthewire.org/"  % username
 
 session = requests.Session()

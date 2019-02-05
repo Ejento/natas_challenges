@@ -2,7 +2,7 @@ import requests
 import re
 
 username = "natas8"
-password = "DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe"
+password = "<censored>"
 url = "http://%s.natas.labs.overthewire.org/"  % username
 
 session = requests.Session()
@@ -26,4 +26,4 @@ print("="*50)
 
 # Just Code Printing
 code = re.findall("Access granted. The password for natas9 is (.*)", response.text)[0]
-print("The code for the next level is: " + code)
+print("The password for the next level is: " + code)

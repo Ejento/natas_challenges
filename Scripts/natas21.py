@@ -2,7 +2,7 @@ import requests
 import re
 
 username = "natas21"
-password = "IFekPyrQXftziDEsUr3x21sYuahypdgJ"
+password = "<censored>"
 url1 = "http://%s.natas.labs.overthewire.org/"  % username
 url2 = "http://%s-experimenter.natas.labs.overthewire.org/"  % username
 

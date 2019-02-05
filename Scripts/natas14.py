@@ -1,9 +1,8 @@
 import requests
 import re
-import urllib
 
 username = "natas14"
-password = "Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1"
+password = "<censored>"
 url = "http://%s.natas.labs.overthewire.org/"  % username
 
 session = requests.Session()

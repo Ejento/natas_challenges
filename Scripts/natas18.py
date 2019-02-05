@@ -1,11 +1,9 @@
 import requests
 import re
 import string
-import time
-
 
 username = "natas18"
-password = "xvKIqDjy4OPv7wCRgDlmj0pFsCsDjhdP"
+password = "<censored>"
 url = "http://%s.natas.labs.overthewire.org/"  % username
 
 session = requests.Session()

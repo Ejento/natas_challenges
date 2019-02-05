@@ -5,7 +5,7 @@ import string
 chars = string.ascii_lowercase + string.ascii_uppercase + string.digits
 
 username = "natas16"
-password = "WaIHEacj63wnNIBROHeqi3p9t0m5nhmh"
+password = "<censored>"
 url = "http://%s.natas.labs.overthewire.org/"  % username
 
 session = requests.Session()

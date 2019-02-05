@@ -3,7 +3,7 @@ import re
 import base64
 
 username = "natas26"
-password = "oGgWAJ7zcGT28vYazGo4rkhOPDhBu34T"
+password = "<censored>"
 url = "http://%s.natas.labs.overthewire.org/"  % username
 
 session = requests.Session()

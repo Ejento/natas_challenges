@@ -2,7 +2,7 @@ import requests
 import re
 
 username = "natas9"
-password = "W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl"
+password = "<censored>"
 url = "http://%s.natas.labs.overthewire.org/"  % username
 
 session = requests.Session()
@@ -23,4 +23,4 @@ print("="*50)
 
 # Just Code Printing
 code = re.findall(r"[A-Za-z0-9]{32}", response.text)[1]
-print("The code for the next level is: " + code)
+print("The password for the next level is: " + code)

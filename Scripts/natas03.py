@@ -2,7 +2,7 @@ import requests
 import re
 
 username = "natas3"
-password = "sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14"
+password = "<censored>"
 url = "http://%s.natas.labs.overthewire.org/"  % username
 
 response = requests.get(url, auth=(username,password))

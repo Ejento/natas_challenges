@@ -2,7 +2,7 @@ import requests
 import re
 
 username = "natas6"
-password = "aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1"
+password = "<censored>"
 url = "http://%s.natas.labs.overthewire.org/"  % username
 source = "index-source.html"
 
@@ -28,4 +28,4 @@ print("="*50)
 
 # Just Code Printing
 code = re.findall('The password for natas7 is (.*)', pageContent)[0]
-print("The code for the next level is: " + code)
+print("The password for the next level is: " + code)

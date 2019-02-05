@@ -5,7 +5,7 @@ import codecs
 import binascii
 
 username = "natas19"
-password = "4IwIrekcuZlA9OsjOkoUtwU6lhokCPYs"
+password = "<censored>"
 url = "http://%s.natas.labs.overthewire.org/"  % username
 
 session = requests.Session()
