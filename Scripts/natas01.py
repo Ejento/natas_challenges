@@ -1,3 +1,7 @@
+'''
+Same as before. Easy challenge.
+You have to read the source code of the page.
+'''
 import requests
 import re
 

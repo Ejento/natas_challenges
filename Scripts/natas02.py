@@ -1,3 +1,7 @@
+'''
+A little more complex challege but still easy.
+This time the password is not in the source of the page.
+'''
 import requests
 import re
 
@@ -10,6 +14,11 @@ pageContent = response.text
 print(pageContent)
 print("="*50)
 
+'''
+Looking through the source, we can see that there is a folder "files".
+We can browse that in our browser. We can see a text file called "users.txt".
+We open the file and we get the password for the next level.
+'''
 new_path="files/users.txt"
 response = requests.get(url+new_path, auth=((username,password)))
 pageContent = response.text
